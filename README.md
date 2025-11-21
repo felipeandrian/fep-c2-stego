@@ -23,10 +23,6 @@ O sistema opera em um modelo *Pull-Based*: o Agente verifica o Dead Drop (a imag
 
 ```mermaid
 sequenceDiagram
-    participant Hacker (C2)
-    participant Firewall (NGFW)
-    participant Agente (Vítima)
-
     Note over Hacker, Agente: FASE 1: INJEÇÃO DE COMANDO (LSB/Image)
     Hacker->>Image Host: Upload 'dead_drop.png' (Comando Oculto)
     Agente->>Image Host: HTTPS GET (Polling por comando)
