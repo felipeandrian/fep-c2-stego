@@ -27,25 +27,25 @@ O **FEP C2 STEGO** é um framework C2 de baixa frequência que utiliza canais en
 </p>
 
 <p align="center">
-  <img src="assets/fep.png" width="400" alt="STEGO.PNG">
+  <img src="assets/fep.png" width="400" alt="fep.png">
   <br>
   <em>Imagem stego.png com o payload e steganografia</em>
 </p>
 
 <p align="center">
-  <img src="assets/fep_c2_stego.png" width="400" alt="STEGO.PNG">
+  <img src="assets/fep_c2_stego.png" width="400" alt="fep_c2_stego.png">
   <br>
   <em>Terminal do Controlador (C2) exfiltração via canal encoberto de alta reputação e criptografado</em>
 </p>
 
 <p align="center">
-  <img src="assets/gists.png" width="400" alt="STEGO.PNG">
+  <img src="assets/gists.png" width="400" alt="gists.png">
   <br>
   <em>Dados recebidos em hex com criptografia xor no gists</em>
 </p>
 
 <p align="center">
-  <img src="assets/decoderxor.png" width="400" alt="STEGO.PNG">
+  <img src="assets/decoderxor.png" width="400" alt="decoderxor.png">
   <br>
   <em>Dados decodificados</em>
 </p>
