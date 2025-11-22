@@ -27,7 +27,7 @@ O **FEP C2 STEGO** é um framework C2 de baixa frequência que utiliza canais en
 </p>
 
 <p align="center">
-  <img src="assets/fep.png" width="400" alt="fep.png">
+  <img src="assets/stego.png" width="400" alt="stego.png">
   <br>
   <em>Imagem stego.png com o payload e steganografia</em>
 </p>
