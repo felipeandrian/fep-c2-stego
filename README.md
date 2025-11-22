@@ -18,6 +18,41 @@
 
 O **FEP C2 STEGO** é um framework C2 de baixa frequência que utiliza canais encobertos de alta reputação. O objetivo é demonstrar a exfiltração de dados e o controle remoto sem abrir portas ou usar tráfego facilmente bloqueável.
 
+
+
+<p align="center">
+  <img src="assets/encoder.png" width="400" alt="Encoder">
+  <br>
+  <em>Injetando o payload na .png com LSB Steganography</em>
+</p>
+
+<p align="center">
+  <img src="assets/fep.png" width="400" alt="STEGO.PNG">
+  <br>
+  <em>Imagem stego.png com o payload e steganografia</em>
+</p>
+
+<p align="center">
+  <img src="assets/fep_c2_stego.png" width="400" alt="STEGO.PNG">
+  <br>
+  <em>Terminal do Controlador (C2) exfiltração via canal encoberto de alta reputação e criptografado</em>
+</p>
+
+<p align="center">
+  <img src="assets/gists.png" width="400" alt="STEGO.PNG">
+  <br>
+  <em>Dados recebidos em hex com criptografia xor no gists</em>
+</p>
+
+<p align="center">
+  <img src="assets/decoderxor.png" width="400" alt="STEGO.PNG">
+  <br>
+  <em>Dados decodificados</em>
+</p>
+
+
+
+
 ### Fluxo Híbrido (Split-Flow)
 O sistema opera em um modelo *Pull-Based*: o Agente verifica o Dead Drop (a imagem) para buscar comandos e envia o resultado para um canal de exfiltração separado (GitHub Gists).
 
